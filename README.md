@@ -57,4 +57,3 @@ Este site pode ser hospedado em qualquer serviço de hospedagem estática, como:
 - Firebase Hosting
 
 Basta fazer upload dos arquivos e a pasta `imagens` para o servidor.
-
