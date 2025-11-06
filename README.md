@@ -48,10 +48,40 @@ Para adicionar ou remover imagens:
 1. Adicione/remova as imagens na pasta `imagens`
 2. Atualize o array `imageFiles` no arquivo `script.js` com os nomes dos novos arquivos
 
-## 🌐 Hospedagem
+## 🌐 Deploy no GitHub Pages
 
-Este site pode ser hospedado em qualquer serviço de hospedagem estática, como:
-- GitHub Pages
+### Método 1: Usando o Script Automatizado
+
+1. **Criar o repositório no GitHub:**
+   - Acesse https://github.com/new
+   - Nome: `atelie-maria-clara`
+   - Deixe como **público**
+   - Não marque nenhuma opção inicial
+   - Clique em **"Create repository"**
+
+2. **Executar o script de deploy:**
+   ```powershell
+   .\deploy.ps1
+   ```
+   - Digite seu nome de usuário do GitHub quando solicitado
+
+3. **Ativar GitHub Pages:**
+   - Acesse: `https://github.com/SEU_USERNAME/atelie-maria-clara/settings/pages`
+   - Em **Source**, selecione branch **"main"**
+   - Clique em **Save**
+
+4. **Acessar seu site:**
+   - `https://SEU_USERNAME.github.io/atelie-maria-clara/`
+
+### Método 2: Manual
+
+Consulte o arquivo `DEPLOY_INSTRUCTIONS.md` para instruções detalhadas.
+
+---
+
+## 📝 Outras Opções de Hospedagem
+
+Este site também pode ser hospedado em:
 - Netlify
 - Vercel
 - Firebase Hosting
