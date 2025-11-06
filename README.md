@@ -1,6 +1,6 @@
 # Ateliê Clara F - Landing Page
 
-Landing page moderna e atraente para apresentar o trabalho de fabricação de tiaras personalizadas do Ateliê Clara F.
+Landing page moderna e atraente para apresentar o trabalho de fabricação de tiaras e laços personalizados do Ateliê Clara F.
 
 ## 🎨 Características
 

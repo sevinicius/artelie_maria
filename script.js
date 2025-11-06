@@ -26,7 +26,7 @@ function loadGallery() {
         
         const img = document.createElement('img');
         img.src = imagePath;
-        img.alt = `Tiara personalizada ${index + 1} - Ateliê Clara F`;
+        img.alt = `Tiara ou laço personalizado ${index + 1} - Ateliê Clara F`;
         img.loading = 'lazy';
         
         // Handle image load error
